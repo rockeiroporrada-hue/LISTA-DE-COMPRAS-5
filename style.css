@@ -1,0 +1,83 @@
+html, body {
+padding: 10px;
+}
+
+
+h1 {
+text-align:center;
+margin: 10px 0 15px;
+}
+
+
+.card {
+background:#fff;
+padding:15px;
+margin:10px 0;
+width: 100%;
+border-radius:6px;
+box-sizing: border-box;
+}
+
+
+.row {
+display:flex;
+gap:8px;
+flex-wrap:wrap;
+}
+
+
+input, select, button {
+padding:10px;
+font-size:16px; /* melhora teclado no celular */
+}
+
+
+input, select {
+flex:1;
+min-width: 120px;
+}
+
+
+button {
+cursor:pointer;
+}
+
+
+ul {
+list-style:none;
+padding:0;
+margin:0;
+}
+
+
+li {
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:10px 0;
+gap:10px;
+}
+
+
+li span {
+flex:1;
+}
+
+
+li.comprado {
+text-decoration: line-through;
+color: gray;
+}
+
+
+.saldo {
+color: green;
+}
+
+
+.excluir {
+color:red;
+cursor:pointer;
+font-weight:bold;
+font-size:18px;
+}
